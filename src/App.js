@@ -1,25 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <p>Typescript 연습을 위한 Naver 클론코딩</p>;
 }
 
 export default App;
